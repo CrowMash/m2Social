@@ -17,7 +17,7 @@ export class CommentListComponent implements OnInit {
     postId: this.postId,
     content: '',
     userId: 1,
-    timestamp: 0
+    timestamp: Date.now() / 1000
   };
 
   constructor(private service: FacebookService) {
@@ -30,6 +30,7 @@ export class CommentListComponent implements OnInit {
   add(): void {
     this.service.addComment(this.postId, this.comment).subscribe();
     this.comments.push(this.comment);
+    this.comment.content = '';
   }
 
 

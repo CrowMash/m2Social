@@ -14,7 +14,7 @@ export class PostListComponent implements OnInit {
     id: 0,
     content: '',
     userId: 1,
-    timestamp: 0
+    timestamp: Date.now() / 1000
   };
 
   constructor(private service: FacebookService) {
@@ -30,7 +30,6 @@ export class PostListComponent implements OnInit {
     });
     this.post.content = '';
     this.post.img = '';
-    this.post.timestamp = Date.now() / 1000;
   }
 
 }

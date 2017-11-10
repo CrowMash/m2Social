@@ -31,6 +31,19 @@
       "userId": 1,
       "timestamp": 0,
       "img": "e"
+    },
+    {
+      "id": 6,
+      "content": "Youpi",
+      "userId": 1,
+      "timestamp": 0,
+      "img": "https://pbs.twimg.com/profile_images/848900452058050560/nhiMlZQl.jpg"
+    },
+    {
+      "id": 7,
+      "content": "re",
+      "userId": 1,
+      "timestamp": 1510312723.063
     }
   ],
   "comments": [
@@ -82,6 +95,13 @@
       "userId": 1,
       "timestamp": 0,
       "postId": "1"
+    },
+    {
+      "id": 15,
+      "content": "rte",
+      "userId": 1,
+      "timestamp": 0,
+      "postId": "4"
     }
   ],
   "users": [
