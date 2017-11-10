@@ -3,3 +3,9 @@
     <li><a [routerLink]="post.id">{{post.content}}</a></li>
   </ng-container>
 </ul>
+
+<form (submit)="add()">
+  <input type="text" [(ngModel)]="post.content" placeholder="Content" name="content" required/>
+  <input type="text" [(ngModel)]="post.img" placeholder="Source Image" name="content"/>
+  <input type="submit" content="Envoyer"/>
+</form>

@@ -3,3 +3,7 @@
     <app-comment [comment]="comment"></app-comment>
   </ng-container>
 </ul>
+<form (submit)="add()">
+  <input type="text" [(ngModel)]="comment.content" name="content"/>
+  <input type="submit" content="Envoyer"/>
+</form>

@@ -18,6 +18,19 @@
       "content": "C'est naze",
       "userId": 2,
       "timestamp": 1509702972
+    },
+    {
+      "id": 4,
+      "content": "Coucou",
+      "userId": 1,
+      "timestamp": 0
+    },
+    {
+      "id": 5,
+      "content": "Yeah",
+      "userId": 1,
+      "timestamp": 0,
+      "img": "e"
     }
   ],
   "comments": [
@@ -55,6 +68,20 @@
       "postId": 2,
       "id": 12,
       "timestamp": 1509696312
+    },
+    {
+      "id": 13,
+      "content": "test",
+      "userId": 1,
+      "timestamp": 0,
+      "postId": "2"
+    },
+    {
+      "id": 14,
+      "content": "moi auss",
+      "userId": 1,
+      "timestamp": 0,
+      "postId": "1"
     }
   ],
   "users": [
