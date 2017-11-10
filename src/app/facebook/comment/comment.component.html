@@ -1,0 +1,9 @@
+<p>
+  {{comment.content}}
+  <br>
+  <i>écrit par
+    <app-user [userId]="comment.userId"></app-user>
+    , le
+    <app-timestamp [time]="comment.timestamp"></app-timestamp>
+  </i>
+</p>

@@ -1,0 +1,14 @@
+<p *ngIf="post">
+  <a href="/post">Retour</a>
+  <br>
+  <img *ngIf="post.img" [src]="post.img" width="250px"/>
+  <br>
+  {{ post.content }}
+  <br>
+  <i>écrit par
+    <app-user [userId]="post.userId"></app-user>
+    , le
+    <app-timestamp [time]="post.timestamp"></app-timestamp>
+  </i>
+  <app-comment-list [postId]="post.id"></app-comment-list>
+</p>
